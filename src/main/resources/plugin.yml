@@ -1,0 +1,21 @@
+name: UltraTeleport
+version: '${project.version}'
+main: com.abishekbhusal.ultrateleport.UltraTeleport
+api-version: 1.16
+prefix: UltraTeleport
+authors: [ AbisGamer ]
+description: A Customizable Teleportation Plugin
+website: https://abishekbhusal.com
+commands:
+  settp:
+    description: Set a teleport location with a name.
+    usage: /settp <name>
+  deltp:
+    description: Delete a teleport location by name.
+    usage: /deltp <name>
+  listtp:
+    description: List all saved teleport locations.
+    usage: /listtp
+  tp:
+    description: Teleport to a saved location by name.
+    usage: /tp <name>

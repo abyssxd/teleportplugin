@@ -1,0 +1,17 @@
+
+#The maximum amount of teleports a player can set
+max-teleports: 3
+
+commands:
+  set_teleport: #/settp <name> ingame command, can be changed by changing the value of "command: "
+    command: settp
+    permission: ultrateleport.set
+  delete_teleport: #/deltp <name> ingame command
+    command: deltp
+    permission: ultrateleport.delete
+  list_locations: #/listtp ingame command, can be changed by changing the value of "command: "
+    command: listtp
+    permission: ultrateleport.list
+  teleport: #/tp <name> ingame command, can be changed by changing the value of "command: "
+    command: tp
+    permission: ultrateleport.use

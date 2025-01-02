@@ -1,0 +1,26 @@
+teleported: "&aYou have been teleported to &e<name>&a!"
+
+no_perms: "&cYou do not have permission to do this!"
+
+only_players: "&cOnly players can execute this command!"
+
+teleport:
+  usage: "&cUsage: /tp <name>"
+  not_found: "&cNo teleport found with the specified name!"
+  success: "&aTeleported successfully!"
+
+set_teleport:
+  usage: "&cUsage: /settp <name>"
+  limit_reached: "&cYou have reached the maximum number of teleports!"
+  success: "&aTeleport location saved successfully!"
+  already_exists: "&cA teleport with the name &e<name>&c already exists!"
+
+list_locations:
+  empty: "&cYou have no saved teleports!"
+  header: "&6Your saved teleports:"
+  entry: "&e<name>&7: <world> &8[<x>, <y>, <z>]"
+
+delete_teleport:
+  usage: "&cUsage: /deltp <name>"
+  success: "&aTeleport location deleted successfully!"
+  not_found: "&cNo teleport location found with the name &e<name>&c!"
