@@ -78,7 +78,7 @@ public class MainCommand implements CommandExecutor {
                 Location location = parseLocation(parts[0]);
                 if (location != null) {
                     player.teleport(location);
-                    messageUtils.sendMessage(player, "teleported");
+                    messageUtils.sendMessage(player, "teleported", "name", name);
                 }
                 return;
             }
